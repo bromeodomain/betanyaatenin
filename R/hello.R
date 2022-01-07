@@ -5,5 +5,5 @@ owo_whats_this <- function() {
 
 # list dependencies
 dependencies <- function() {
-  print("dplyr, ggplot2")
+  print("dplyr")
 }

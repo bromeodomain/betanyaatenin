@@ -4,7 +4,8 @@ Title: bromeodomain's general package of stuff
 Version: 0.1.0
 Author: bromeodomain (mcmahon)
 Maintainer: bromeodomain <bromeodomain@protonmail.com>
-Description: General molecular biology/geometric morphometrics package for personal use
+Description: This is a general molecular biology/geometric morphometrics package for personal use.
 License: None
 Encoding: UTF-8
 LazyData: true
+Imports: dplyr

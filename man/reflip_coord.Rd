@@ -23,6 +23,3 @@ Outputs a three-column data frame in the 3DSlicer (RAS) coordinate system
 \references{
 https://www.slicer.org/wiki/Coordinate_systems
 }
-\examples{
-reflip_coord(data)
-}

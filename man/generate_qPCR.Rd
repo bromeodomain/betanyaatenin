@@ -32,6 +32,3 @@ https://www.emdmillipore.com/US/en/products/water-purification/type-1/5cSb.qB.89
 \seealso{
 cDNA_synth
 }
-\examples{
-generate_qPCR(num_sample = 3, trials = 2, genotypes = 2, genes = ("Gapdh", "Ctnnb1"))
-}

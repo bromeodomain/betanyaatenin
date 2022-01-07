@@ -1,5 +1,6 @@
+library(dplyr)
+
 cDNA_synth <- function(data, mass) {
-  library(dplyr)
   data <- data %>%
     mutate(RNA_uL = mass/Concentration) %>%
     mutate(iScript_5X_uL = 4) %>%
@@ -10,7 +11,6 @@ cDNA_synth <- function(data, mass) {
 }
 
 generate_qPCR <- function(num_sample, trials, genotypes, genes) {
-  library(dplyr)
   num_sample_error <- (num_sample*trials*genotypes) +1
   total_vol <- num_sample_error * 10
   cocktail <- tibble(matrix(ncol = 5, nrow = 0))
@@ -22,3 +22,4 @@ generate_qPCR <- function(num_sample, trials, genotypes, genes) {
   colnames(cocktail) <- c("gene", "tb_green", "primer", "mq_h2o", "template")
   return(cocktail)
 }
+

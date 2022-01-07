@@ -16,6 +16,3 @@ findF2(F1, markup_fids_c1)
 \details{
 Outputs a vector defining the coordinates of F2
 }
-\examples{
-findF2(F1, markup_fids_c1)
-}

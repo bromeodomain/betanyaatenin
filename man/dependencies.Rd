@@ -7,5 +7,5 @@ list dependencies
 dependencies()
 }
 \description{
-lists dependencies for betanyaatenin (dplyr and ggplot2 thus far)
+lists dependencies for betanyaatenin (only dplyr thus far)
 }

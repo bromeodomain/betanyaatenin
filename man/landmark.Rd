@@ -19,6 +19,3 @@ landmark(F1, markup_fids_c1, markup_fids_c2)
 \details{
 Outputs a table of 8 observations in the RAS convention defining the coordinates of F1 through F8
 }
-\examples{
-landmark(F1, markup_fids_c1, markup_fids_c2)
-}

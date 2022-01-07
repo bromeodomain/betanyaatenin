@@ -30,8 +30,3 @@ https://www.bio-rad.com/sites/default/files/webroot/web/pdf/lsr/literature/41062
 
 https://www.emdmillipore.com/US/en/products/water-purification/type-1/5cSb.qB.89EAAAFAJqxkiQpx,nav
 }
-\examples{
-example_df <- tibble(Sample = c("WT_1", "WT_2", "cKO_1", "cKO_2"),
-                     Concentration = c(60.7, 89.6, 78.8, 87))
-cDNA_synth(example_df, 400)
-}
